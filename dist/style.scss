@@ -1,0 +1,36 @@
+$margin-centerise: 0px auto;
+
+$color__purple: #9575CD;
+.row-header {
+    margin: $margin-centerise;
+    padding: 0px;
+}
+
+.row-content {
+    margin: $margin-centerise;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: rgba(149, 117, 205, 0.555) !important;
+    margin: $margin-centerise;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: $margin-centerise;
+    color: floralwhite;
+}
+
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+.jmbt {
+    background: $color__purple !important;
+}
